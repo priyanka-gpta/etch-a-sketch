@@ -30,11 +30,11 @@ let createGrid = (num=16) => {
 }
 createGrid();
 
-custom grid size input from user
+//custom grid size input from user
 const gridSelbtn = document.querySelector("#gridSelbtn");
 gridSelbtn.addEventListener("click",() => {
     canvas.innerHTML = "";
-    userGridInput = prompt("Enter value < 50");
+    const userGridInput = document.getElementById("gridSize").value;
     createGrid(userGridInput);
 });
 

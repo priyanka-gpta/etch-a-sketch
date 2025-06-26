@@ -1,7 +1,49 @@
+body {
+background-color: lavender;
+
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    font-family: "Pacifico", cursive;
+    font-size: 64px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#resetbtn {
+    background-color: #008CBA;
+    font-size: 16px;
+    border-radius: 12px;
+    color: white;
+    padding:14px 40px ;
+}
+
+.nav {
+    padding: 30px;
+    text-align: center;
+}
+
+.userInput {
+    padding: 10px;
+    text-align: center;
+}
+
+
+#gridSelbtn {
+    background-color: #008CBA;
+    font-size: 12px;
+    border-radius: 8px;
+    color: white;
+    padding:7px 20px ;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .canvas {
