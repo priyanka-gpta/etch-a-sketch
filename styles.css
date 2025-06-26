@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border: solid white;
+    padding: 0;
+    flex-flow: column wrap;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+.cell {
+    border: 1px solid white;
+    flex-shrink: 1;
+    flex-grow: 1;
+    background-color: black;
+}
